@@ -92,8 +92,8 @@ and visualizes:
 The presentation created for the marketing team walks through the insights and recommendations above and can be found [here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Some extracts are presented below for easy viewing.
 
 <img width="973" height="655" alt="image" src="https://github.com/user-attachments/assets/98bc5fa0-58fa-4ed8-9db6-2ebb08186c0f" />
-<img width="1052" height="579" alt="image" src="https://github.com/user-attachments/assets/a2a53237-770c-4874-b621-4fd0ade943d8" />
-<img width="896" height="519" alt="image" src="https://github.com/user-attachments/assets/8cec151d-12a9-4bdc-bc46-e49eaa773c6c" />
+<img width="1293" height="698" alt="image" src="https://github.com/user-attachments/assets/abfb131a-c5b8-480a-9012-662e17379ca0" />
+<img width="1158" height="651" alt="image" src="https://github.com/user-attachments/assets/0a58d87b-4f79-4665-8fea-39a934f73960" />
 <img width="872" height="568" alt="image" src="https://github.com/user-attachments/assets/7ab26d6c-9762-494c-8d2f-c363c935925a" />
 
 
