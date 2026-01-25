@@ -66,8 +66,11 @@ Overall performance across all campaigns:
 - Silver plan customers and customers from New Jersey accounted for the majority of total claims volume.
 
 ## Recommendations
-<img width="1312" height="758" alt="image" src="https://github.com/user-attachments/assets/35b5a215-8e54-48fa-b080-58c779a96ad7" />
-
+- **Golden Years Security**: Consider discontinuing or redesigning this campaign due to low CTR and high cost per signup.
+- **Health For All**: Increase investment, particularly in Health Awareness campaign types that demonstrate strong conversion performance.
+- **Compare Health Coverage**: Collaborate with actuarial teams to assess whether this campaign attracts higher-risk customer profiles.
+- **Family Coverage Plan**: Investigate missing or ineffective click activity.
+- **COVID Campaigns**: Remove or restructure campaigns with abnormally high customer acquisition costs.
 
 ## Dashboard
 The dashboard can be found in Tableau Public [here](https://public.tableau.com/app/profile/thai.nguyen4738/viz/carebridge_health_marketing_claims/carebridge_dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
@@ -84,5 +87,9 @@ and visualizes:
   
 <img width="1329" height="1168" alt="image" src="https://github.com/user-attachments/assets/033590a5-42c8-48c5-b1b1-e75dc413c316" />
 
-## Technical Process
+## Presentation Sample
+The presentation created for the marketing team walks through the insights and recommendations above and can be found here. Some extracts are presented below for easy viewing.
+
+<img width="1301" height="755" alt="image" src="https://github.com/user-attachments/assets/042a70f4-2beb-43c2-8307-b84d73555afd" />
+
 <img width="1242" height="729" alt="image" src="https://github.com/user-attachments/assets/9f362996-6284-4a25-8d55-982e770d75e6" />
