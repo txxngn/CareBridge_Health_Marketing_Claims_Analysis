@@ -84,12 +84,16 @@ and visualizes:
 - Signup metrics
 - Claim metrics
 - Time-series trends
+<img width="1410" height="1165" alt="image" src="https://github.com/user-attachments/assets/325ba8c7-2fbf-45a8-b52d-b038d7885743" />
   
-<img width="1329" height="1168" alt="image" src="https://github.com/user-attachments/assets/033590a5-42c8-48c5-b1b1-e75dc413c316" />
+
 
 ## Presentation Sample
-The presentation created for the marketing team walks through the insights and recommendations above and can be found here. Some extracts are presented below for easy viewing.
+The presentation created for the marketing team walks through the insights and recommendations above and can be found [here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Some extracts are presented below for easy viewing.
 
-<img width="1301" height="755" alt="image" src="https://github.com/user-attachments/assets/042a70f4-2beb-43c2-8307-b84d73555afd" />
+<img width="973" height="655" alt="image" src="https://github.com/user-attachments/assets/98bc5fa0-58fa-4ed8-9db6-2ebb08186c0f" />
+<img width="1052" height="579" alt="image" src="https://github.com/user-attachments/assets/a2a53237-770c-4874-b621-4fd0ade943d8" />
+<img width="896" height="519" alt="image" src="https://github.com/user-attachments/assets/8cec151d-12a9-4bdc-bc46-e49eaa773c6c" />
+<img width="872" height="568" alt="image" src="https://github.com/user-attachments/assets/7ab26d6c-9762-494c-8d2f-c363c935925a" />
 
-<img width="1242" height="729" alt="image" src="https://github.com/user-attachments/assets/9f362996-6284-4a25-8d55-982e770d75e6" />
+
