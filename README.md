@@ -49,7 +49,7 @@ Overall performance across all campaigns:
 - Total Claims: **16,289 signups**
 - Average Claim Amount: **$267**
 
-## Key Insights
+# Key Insights
 ### Marketing Insights
 - Health For All and Benefit Updates campaigns achieved CTRs nearly **3x higher** than the overall average.
 - Golden Years Security recorded the lowest CTR (~1%) and the highest CPC ($0.68), indicating inefficient spend.
@@ -72,7 +72,7 @@ Overall performance across all campaigns:
 - **Family Coverage Plan**: Investigate missing or ineffective click activity.
 - **COVID Campaigns**: Remove or restructure campaigns with abnormally high customer acquisition costs.
 
-## Dashboard
+# Dashboard
 The dashboard can be found in Tableau Public [here](https://public.tableau.com/app/profile/thai.nguyen4738/viz/carebridge_health_marketing_claims/carebridge_dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
 The dashboard allows filtering by:
 - Campaign category
@@ -88,7 +88,7 @@ and visualizes:
   
 
 
-## Presentation Sample
+# Presentation Sample
 The presentation created for the marketing team walks through the insights and recommendations above and can be found [here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Some extracts are presented below for easy viewing.
 
 <img width="973" height="655" alt="image" src="https://github.com/user-attachments/assets/98bc5fa0-58fa-4ed8-9db6-2ebb08186c0f" />
