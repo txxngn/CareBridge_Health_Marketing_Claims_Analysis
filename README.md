@@ -33,19 +33,22 @@ Overall performance across all campaigns:
 
 # Key Insights
 ### Marketing Insights
-- Health For All and Benefit Updates campaigns achieved CTRs nearly **3x higher** than the overall average.
-- Golden Years Security recorded the lowest CTR (~1%) and the highest CPC ($0.68), indicating inefficient spend.
-- Family Coverage Plan campaigns generated high impressions but nearly zero clicks, suggesting potential campaign or data quality issues.
+- **Health For All** and **Benefit Updates** campaigns significantly outperformed other categories on click-through rate, achieving approximately **25% and 22% CTR**, nearly **3–4x higher than the overall average (~9%)**.
+- **Golden Years Security** recorded the **lowest CTR (~1%)** and the **highest cost per click ($0.68)**, indicating highly inefficient marketing spend.
+- **Family Coverage Plan** campaigns generated high impressions but **no clicks**, suggesting potential data quality issues or ineffective campaign execution.
+- Product promotion–based campaigns within high-CTR categories performed relatively poorly, with CTR values as low as **0–7%.**
 
 ### Signup Insights
-- Health For All campaigns achieved the strongest signup rate (≈2%) and over **3,500 signups**, driven primarily by Health Awareness campaign types.
-- #HealthyLiving generated the highest number of signups but maintained a relatively low signup rate (~0.3%), indicating high volume but weaker conversion efficiency.
-- COVID-based campaigns showed abnormally high cost per signup, exceeding $1,000 per customer.
+- **Health For Al** campaigns achieved the strongest signup performance, with a **2.08% signup rate** and approximately **3,545 signups**, ranking second in total signup volume.
+- This strong performance was driven primarily by the **Health Awareness campaign type**, which recorded the **highest signup rate across all campaign types (~2.78%).**
+- The **#HealthyLiving** category generated the **highest number of signups**, but had a relatively low signup rate of approximately **0.3%**, indicating high reach but weaker conversion efficiency.
+- **Golden Years Security** had the **highest cost per signup ($177)** and the **lowest signup volume (23 signups)**, compared to an overall average cost per signup of **$3.70.**
+- COVID-based campaigns exhibited abnormally high customer acquisition costs, with some campaigns exceeding **$1,200–$2,200 per signup.**
 
 ### Claims Insights
-- Claim counts and claim amounts peaked in mid-2022 and have trended downward since early 2023.
-- Compare Health Coverage generated the highest total claim amount ($3.9M) and the highest average claim amount (~$410), approximately 50% higher than the dataset average.
-- Silver plan customers and customers from New Jersey accounted for the majority of total claims volume.
+- Claim counts and total claim amounts increased steadily through the pandemic period and **peaked in mid-2022**, followed by a consistent decline beginning in early 2023.
+- **Compare Health Coverage** generated the **highest total claim amount ($3.9M)** and the **highest average claim amount ($410)**, approximately **50% higher than the overall average claim amount ($267).**
+- **Silver plan customers** and customers from **New Jersey** accounted for the majority of total claim volume, representing approximately **87% and 52% of claims**, respectively.
 
 ## Recommendations
 - **Golden Years Security**: Consider discontinuing or redesigning this campaign due to low CTR and high cost per signup.
