@@ -59,7 +59,7 @@ Overall performance across all campaigns:
 
 # Dashboard
 The dashboard can be found in Tableau Public [here](https://public.tableau.com/app/profile/thai.nguyen4738/viz/carebridge_health_marketing_claims/carebridge_dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
-<img width="1686" height="1911" alt="carebridge_dashboard" src="https://github.com/user-attachments/assets/ded9f75c-c8d9-489a-9418-55fa70c27b4f" />
+<img width="1686" height="1799" alt="carebridge_dashboard (1)" src="https://github.com/user-attachments/assets/c492b94f-d4a2-4a32-8a2a-df068da13d69" />
 
   
 # Presentation Sample
