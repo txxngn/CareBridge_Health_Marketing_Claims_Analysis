@@ -1,3 +1,8 @@
+<div align="center">
+<img width="586" height="176" alt="CareBridge" src="https://github.com/user-attachments/assets/736a17c8-3e86-40f0-8a32-5e45ebfdfa92" />
+</div>
+
+
 # CareBridge Health – Marketing Performance & Claims Analysis
 
 ## The goal of this project is to evaluate the performance of CareBridge Health’s marketing campaigns and surface actionable recommendations for future marketing budget allocation.
