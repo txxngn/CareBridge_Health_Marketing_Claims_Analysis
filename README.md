@@ -13,7 +13,7 @@ The interactive Tableau dashboard can be found on Tableau Public [here](https://
 
   
 # Presentation Sample
-The stakeholder presentation prepared for the marketing team walks through the full analysis, findings, and recommendations and can be found[here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Sample slides below.
+The stakeholder presentation prepared for the marketing team walks through the full analysis, findings, and recommendations and can be found [here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Sample slides below.
 
 <!--The following are sample screenshots of the presentation slides-->
 <img width="1093" height="663" alt="image" src="https://github.com/user-attachments/assets/c71ff553-549d-4043-b2ab-e815f29b1c52" />
