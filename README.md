@@ -5,7 +5,26 @@
 
 # CareBridge Health – Marketing Performance & Claims Analysis
 
-## The goal of this project is to evaluate the performance of CareBridge Health’s marketing campaigns and surface actionable recommendations for future marketing budget allocation.
+## CareBridge's marketing campaigns are acquiring customers efficiently on the front end - but the highest-converting campaigns are generating disproportionate claims exposure on the back end, raising questions about whether marketing ROI is being measured correctly.
+
+# Dashboard
+The interactive Tableau dashboard can be found on Tableau Public [here](https://public.tableau.com/app/profile/thai.nguyen4738/viz/carebridge_health_marketing_claims/carebridge_dashboard). It enables marketing and claims teams to self-serve insights and filter by plan type, campaign type, and state across three workstreams: marketing performance, signup conversion, and claims exposure.
+<img width="1686" height="1799" alt="carebridge_dashboard (1)" src="https://github.com/user-attachments/assets/c492b94f-d4a2-4a32-8a2a-df068da13d69" /> <!--This is Tableau dashboard picture-->
+
+  
+# Presentation Sample
+The stakeholder presentation prepared for the marketing team walks through the full analysis, findings, and recommendations and can be found[here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Sample slides below.
+
+<!--The following are sample screenshots of the presentation slides-->
+<img width="1093" height="663" alt="image" src="https://github.com/user-attachments/assets/c71ff553-549d-4043-b2ab-e815f29b1c52" />
+<img width="1316" height="737" alt="image" src="https://github.com/user-attachments/assets/99fe3bc4-d84e-4d35-90ed-69cbe0985439" />
+<img width="1192" height="647" alt="image" src="https://github.com/user-attachments/assets/3f03a5ce-25c3-4cf5-a697-d0fa08f60ac1" />
+<img width="1133" height="638" alt="image" src="https://github.com/user-attachments/assets/604cabe1-e07e-469c-87c9-db617be8e5eb" />
+
+
+
+
+
 # Project Overview
 Founded in 2016, CareBridge Health is a U.S.-based medical insurance company serving customers across multiple states. In 2019, the company launched a series of marketing campaigns focused on health awareness, affordability, preventative care, and customer engagement.
 
@@ -14,8 +33,8 @@ Customers can enroll in four plan types - Bronze, Silver, Gold, and Platinum - e
 CareBridge Health has recently expanded its data analytics team to better understand how marketing campaigns relate to customer signups and subsequent insurance claims. As a data analyst supporting CareBridge Health, this project delivers an interactive Tableau dashboard that enables the marketing and claims teams to self-serve insights and monitor campaign performance over time.
 
 # Dataset Structure
-The dataset consisted of three tables, including information about campaigns, signups and user demographics, as well as claims filed by customers and related claim information.
-<img width="700" height="555" alt="image" src="https://github.com/user-attachments/assets/d49a3cf9-14e1-457a-8a78-c8cca3e38c85" />
+The dataset consisted of three tables, including information about campaigns, signups, and user demographics, as well as claims filed by customers and related claim information.
+<img width="700" height="555" alt="image" src="https://github.com/user-attachments/assets/d49a3cf9-14e1-457a-8a78-c8cca3e38c85" /> <!--This is ERD-->
 
 # North Star Metrics
 To evaluate campaign performance, the following key metrics were used:
@@ -39,41 +58,29 @@ Overall performance across all campaigns:
 # Key Insights
 ### Marketing Insights
 - **Health For All** and **Benefit Updates** campaigns significantly outperformed other categories on click-through rate, achieving approximately **25% and 22% CTR**, nearly **3–4x higher than the overall average (~9%)**.
-- **Golden Years Security** recorded the **lowest CTR (~1%)** and the **highest cost per click ($0.68)**, indicating highly inefficient marketing spend.
-- **Family Coverage Plan** campaigns generated high impressions but **no clicks**, suggesting potential data quality issues or ineffective campaign execution.
+- **Golden Years Security** recorded the **lowest CTR (~1%)** and the **highest cost per click ($0.68)**, indicating highly inefficient marketing spend relative to the $0.07 overall average.
+- **Family Coverage Plan** campaigns generated high impressions but **zero clicks** — this is a data integrity flag, not just a performance issue. A campaign generating impressions with no clicks at all warrants a tracking audit before any budget decisions are made based on its reported performance.
 - Product promotion–based campaigns within high-CTR categories performed relatively poorly, with CTR values as low as **0–7%.**
 
 ### Signup Insights
-- **Health For Al** campaigns achieved the strongest signup performance, with a **2.08% signup rate** and approximately **3,545 signups**, ranking second in total signup volume.
+- **Health For All** campaigns achieved the strongest signup performance, with a **2.08% signup rate** and approximately **3,545 signups**, ranking second in total signup volume.
 - This strong performance was driven primarily by the **Health Awareness campaign type**, which recorded the **highest signup rate across all campaign types (~2.78%).**
-- The **#HealthyLiving** category generated the **highest number of signups**, but had a relatively low signup rate of approximately **0.3%**, indicating high reach but weaker conversion efficiency.
+- The **#HealthyLiving** category generated the **highest number of signups**, but had a relatively low signup rate of approximately **0.3%**, indicating high reach but weaker conversion efficiency - volume without quality.
 - **Golden Years Security** had the **highest cost per signup ($177)** and the **lowest signup volume (23 signups)**, compared to an overall average cost per signup of **$3.70.**
-- COVID-based campaigns exhibited abnormally high customer acquisition costs, with some campaigns exceeding **$1,200–$2,200 per signup.**
+- COVID-based campaigns exhibited abnormally high customer acquisition costs, with some campaigns exceeding **$1,200–$2,200 per signup** - these numbers should be validated for data completeness before the campaigns are restructured or removed.
 
 ### Claims Insights
 - Claim counts and total claim amounts increased steadily through the pandemic period and **peaked in mid-2022**, followed by a consistent decline beginning in early 2023.
-- **Compare Health Coverage** generated the **highest total claim amount ($3.9M)** and the **highest average claim amount ($410)**, approximately **50% higher than the overall average claim amount ($267).**
-- **Silver plan customers** and customers from **New Jersey** accounted for the majority of total claim volume, representing approximately **87% and 52% of claims**, respectively.
+- **Compare Health Coverage** generated the **highest total claim amount ($3.9M)** and the **highest average claim amount ($410)**, approximately **50% higher than the overall average claim amount ($267)**.This campaign appears efficient on acquisition metrics but creates outsized claims exposure downstream, which means its true ROI requires actuarial review, not just marketing metrics.
+- **Silver plan customers** and customers from **New Jersey** accounted for the majority of total claim volume, representing approximately **87% and 52% of claims**, respectively - a concentration that creates meaningful exposure if either segment shifts behavior or coverage needs change.
 
 ## Recommendations
-- **Golden Years Security**: Consider discontinuing or redesigning this campaign due to low CTR and high cost per signup.
-- **Health For All**: Increase investment, particularly in Health Awareness campaign types that demonstrate strong conversion performance.
-- **Compare Health Coverage**: Collaborate with actuarial teams to assess whether this campaign attracts higher-risk customer profiles.
-- **Family Coverage Plan**: Investigate missing or ineffective click activity.
-- **COVID Campaigns**: Remove or restructure campaigns with abnormally high customer acquisition costs.
-
-# Dashboard
-The dashboard can be found in Tableau Public [here](https://public.tableau.com/app/profile/thai.nguyen4738/viz/carebridge_health_marketing_claims/carebridge_dashboard). This dashboard enables users to filter by plan, campaign type, and state, and focuses on trends and values in marketing metrics, signup metrics, and claim metrics.
-<img width="1686" height="1799" alt="carebridge_dashboard (1)" src="https://github.com/user-attachments/assets/c492b94f-d4a2-4a32-8a2a-df068da13d69" />
-
-  
-# Presentation Sample
-The presentation created for the marketing team walks through the insights and recommendations above and can be found [here](https://docs.google.com/presentation/d/1OsyEj8gVzfqCQnnH4MJGwAkyM7lLE_Zu/edit?usp=sharing&ouid=103634556289743709939&rtpof=true&sd=true). Some extracts are presented below for easy viewing.
-
-<img width="1093" height="663" alt="image" src="https://github.com/user-attachments/assets/c71ff553-549d-4043-b2ab-e815f29b1c52" />
-<img width="1316" height="737" alt="image" src="https://github.com/user-attachments/assets/99fe3bc4-d84e-4d35-90ed-69cbe0985439" />
-<img width="1192" height="647" alt="image" src="https://github.com/user-attachments/assets/3f03a5ce-25c3-4cf5-a697-d0fa08f60ac1" />
-<img width="1133" height="638" alt="image" src="https://github.com/user-attachments/assets/604cabe1-e07e-469c-87c9-db617be8e5eb" />
+- **Golden Years Security**: Consider discontinuing or redesigning this campaign. At ~1% CTR, $0.68 CPC, and $177 cost per signup against a $3.70 average, it is the clearest case of misallocated budget in the portfolio.
+- **Health For All**: Increase investment, particularly in Health Awareness campaign types. At 2.78% signup rate and cost-efficient acquisition, this is the benchmark the rest of the portfolio should be measured against.
+- **Compare Health Coverage**: Do not optimize this campaign purely on marketing metrics. Its $410 average claim amount - 50% above portfolio average - suggests it may be attracting higher-risk customer profiles. Collaborate with actuarial teams to assess whether the acquisition cost savings are offset by downstream claims exposure before scaling spend.
+- **Family Coverage Plan**: Audit tracking and execution before making any budget decisions. Zero clicks on a campaign with recorded impressions is a data quality issue first, a performance issue second.
+- **COVID Campaigns**: Validate data completeness before restructuring - $1,200-$2,200 per signup is either a real inefficiency or a reporting gap. Confirm which before reallocating the budget.
+- **Concentration Risk:** Silver plan and New Jersey together drive the majority of claims volume. Monitor these segments as leading indicators of portfolio-wide claims exposure, and factor this concentration into any regional or plan-level marketing expansion decisions.
 
 
 
