@@ -1,3 +1,25 @@
+> **Business problem:** CareBridge's marketing team was optimizing campaigns for cheap 
+> signups — without knowing that their best-converting campaigns were generating 
+> disproportionate insurance claims on the back end. Marketing ROI was being measured 
+> with the wrong denominator.
+>
+> **What I found:** The Health For All campaign had a 2.78% signup rate at $3.70 cost per 
+> signup — the portfolio benchmark. But Compare Health Coverage, which looked efficient on 
+> acquisition, generated $3.9M in claims at $410 avg per claim — 50% above portfolio 
+> average — meaning actuarial cost was quietly eroding the apparent marketing win.
+>
+> **Decision enabled:** Marketing now needs actuarial sign-off before scaling any campaign, 
+> not just acquisition metrics. Golden Years Security should be cut immediately ($177 cost 
+> per signup vs $3.70 avg, 1% CTR). One campaign had zero clicks despite recorded 
+> impressions — a tracking audit before any budget decision.
+>
+> **Tools:** SQL · Tableau  
+> **Domain:** Healthcare · Insurance
+
+
+
+
+
 <div align="center">
 <img width="586" height="176" alt="CareBridge" src="https://github.com/user-attachments/assets/736a17c8-3e86-40f0-8a32-5e45ebfdfa92" />
 </div>
