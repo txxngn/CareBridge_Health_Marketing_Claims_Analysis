@@ -104,5 +104,8 @@ Overall performance across all campaigns:
 - **COVID Campaigns**: Validate data completeness before restructuring - $1,200-$2,200 per signup is either a real inefficiency or a reporting gap. Confirm which before reallocating the budget.
 - **Concentration Risk:** Silver plan and New Jersey together drive the majority of claims volume. Monitor these segments as leading indicators of portfolio-wide claims exposure, and factor this concentration into any regional or plan-level marketing expansion decisions.
 
-
+<br>
+<div>
+<p><i>The core finding cuts across both workstreams: marketing efficiency and claims exposure must be evaluated together. Optimizing either in isolation produces the wrong answer.</i></p>
+</div>
 
