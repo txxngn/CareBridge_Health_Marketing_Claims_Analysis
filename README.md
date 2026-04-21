@@ -13,7 +13,7 @@
 > per signup vs $3.70 avg, 1% CTR). One campaign had zero clicks despite recorded 
 > impressions - a tracking audit before any budget decision.
 >
-> **Tools:** SQL · Tableau  
+> **Tools:** SQL · Tableau · Microsoft PowerPoint  
 > **Domain:** Healthcare · Insurance
 
 
